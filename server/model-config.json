@@ -15,7 +15,7 @@
     ]
   },
   "AccessToken": {
-    "dataSource": "mongo",
+    "dataSource": "mongoDB",
     "public": false,
     "relations": {
       "user": {
@@ -26,22 +26,22 @@
     }
   },
   "ACL": {
-    "dataSource": "mongo",
+    "dataSource": "mongoDB",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "mongo",
+    "dataSource": "mongoDB",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "mongo",
+    "dataSource": "mongoDB",
     "public": false
   },
   "user": {
-    "dataSource": "mongo",
+    "dataSource": "mongoDB",
     "public": true
   }
 }
